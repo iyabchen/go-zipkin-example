@@ -1,0 +1,14 @@
+version: "3"
+services:
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - "19411:9411"
+
+  svca:
+    image: svca:1.0
+    ports:
+      - "18080:8080"    
+
+  svcb:
+    image: svcb:1.0
