@@ -6,6 +6,7 @@ An example of zipkin-go based on code in go blog series http://callistaenterpris
 ## What it looks like in zipkin UI
 
 service A queries bolt db, then issue a rest call to service B. Between each operation, there is some sleep time to make the graph look more clearly.
+![Screenshot](zipkin.png)
 
 ## Build and deploy
 
